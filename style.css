@@ -1,0 +1,43 @@
+body {
+        background-color: #090909;
+        color:white;
+        font-family: Arial;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+
+#container1{
+	background-color: #030303;
+	padding: 1px;
+	box-shadow: 2px 2px 8px rgba(0,0,0, 0.6);
+	border-radius: 10px;
+}
+
+.container2{
+	background-color: #030303;
+	width: 308px;
+	padding: 20px;
+	margin: auto;
+	box-shadow: 2px 2px 8px rgba(0,0,0, 0.6);
+	border-radius: 10px;
+}
+
+#submit{
+	border-radius: 5px;
+	background-color: #090909;
+	font-size: 13px;
+	color: darkorange;
+	border: 2px solid orange;
+	cursor: pointer;
+}
+
+#reset{
+	border-radius: 5px;
+	background-color: #090909;
+	font-size: 13px;
+	color: darkorange;
+	border: 2px solid orange;
+	cursor: pointer;
+}

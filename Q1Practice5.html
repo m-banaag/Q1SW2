@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content=
+        "width=device-width, initial-scale=1">
+    <title>
+        Q1Practice5
+    </title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+    <div id="container1">
+        <h1 align="center"><span style="color: darkorange; font-family: Arial;"> Club Membership</span> Form</h1>
+    </div>
+        
+    <br>
+
+    <div class="container2">
+        <form action="message.html">
+            <label for="name">Name:</label>
+            <br>
+            <input type="text" id="name" name="name" placeholder="Enter name here..." required>
+
+            <br><br>
+
+            <label for="age">Age:</label>
+            <br>
+            <input type="number" id="age" name="age" required>
+
+            <br><br>
+
+            <label for="grsec">Grade & Section:</label>
+            <br>
+            <select id="sections" name="sections">
+                <option value="choose">Choose a grade and section</option>
+                <option value="7E">7-Emerald</option>
+                <option value="7J">7-Jade</option>
+                <option value="7R">7-Ruby</option>
+                <option value="7S">7-Sapphire</option>
+                <option value="7T">7-Topaz</option>
+                <option value="8E">8-Emerald</option>
+                <option value="8J">8-Jade</option>
+                <option value="8R">8-Ruby</option>
+                <option value="8S">8-Sapphire</option>
+                <option value="8T">8-Topaz</option>
+                <option value="9E">9-Emerald</option>
+                <option value="9J">9-Jade</option>
+                <option value="9R">9-Ruby</option>
+                <option value="9S">9-Sapphire</option>
+                <option value="9T">9-Topaz</option>
+                <option value="10E">10-Emerald</option>
+                <option value="10J">10-Jade</option>
+                <option value="10R">10-Ruby</option>
+                <option value="10S">10-Sapphire</option>
+                <option value="10T">10-Topaz</option>
+            </select>
+
+            <br><br>
+
+            <label for="club">Club Options:</label>
+            <br>
+            <select id="clubs" name="clubs">
+                <option value="choose2">Choose a club</option>
+                <option value="dance">Dance Club</option>
+                <option value="march">Marching Band</option>
+                <option value="comms">Communictions Club</option>
+                <option value="glee">Glee Club</option>
+                <option value="varsi">Basketball Varsity</option>
+                <option value="cocc">Cadet Officer Candidate Course</option>
+            </select>
+
+            <br><br>
+
+            <label for="why">Why do you want to join this club?</label>
+            <br>
+            <textarea rows="7" cols="25" placeholder="Type your answer here..."></textarea>
+
+            <br><br>
+
+            <input type="submit" id="submit" name="submit" value="Send Membership">
+            <input type="reset" id="reset" name="reset" value="Reset Form">
+        </form>
+</body>
+
+</html>
+        
